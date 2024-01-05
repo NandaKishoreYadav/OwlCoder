@@ -30,7 +30,7 @@ int main(){
         cin>>a>>b;
         int ans=0;
         vector<int> temp(32,0);
-        for(int i=0;i<31;i++){
+        for(int i=0;i<=31;i++){
             if(a==0){
                 if(pre[b][i]==(b+1))ans+=(1<<i);
                 continue;
